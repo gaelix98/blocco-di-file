@@ -17,8 +17,8 @@ using Statistics
 
 # Simulation parameters
 # Section 5.3 - Direct vs Indirect contagions
-fparams = "src/experiments/AAMAS20/configs/53/aamas53.csv"
-output_path = "src/experiments/AAMAS20/results/53"
+fparams = "C:/Users/Utente/Desktop/tesi uni/TVHEpidemicDynamics.jl/src/experiments/AAMAS20/configs/weeplaces/weplaces.csv"
+output_path = "C:/Users/Utente/Desktop/tesi uni/TVHEpidemicDynamics.jl/src/experiments/AAMAS20/results/weplaces"
 
 # Section 5.4 - Modeling the effect of time
 #fparams = "src/experiments/AAMAS20/configs/54/aamas54.csv"
