@@ -181,7 +181,7 @@ for test_type in keys(simulation_data)
     figure(figsize=(7,4))
 
     for exp in get!(simulation_data, test_type, Array{Float64, 1}())
-        ylim(bottom=0.0, top=0.6)
+        ylim(bottom=0.0, top=0.3)
         plot(exp.second.infected_distribution, linestyle=linestyles[linestyle], marker=markers[marker], markevery=10, markersize=6.5)
 
         xlabel("Time intervals", fontweight="semibold", labelpad=10, fontsize="x-large")
